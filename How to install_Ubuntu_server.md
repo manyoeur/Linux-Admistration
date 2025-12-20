@@ -34,4 +34,9 @@ Step 16. Keep blank for feature server snap
 <img width="1532" height="1157" alt="image" src="https://github.com/user-attachments/assets/b6c31e34-434a-4902-850f-8ba8adac6a3a" />
 Step 17. Installation system. Wait until finish process finishes.
 <img width="1522" height="1145" alt="image" src="https://github.com/user-attachments/assets/76f949d2-1884-4c70-8552-cb2475e53bc3" />
+Step 18. Installation completed. select "Reboot Now".
+<img width="1524" height="1150" alt="image" src="https://github.com/user-attachments/assets/2a3461b4-5e8f-40cb-83d3-68deedca1e2e" />
+Step 19. After the reboot is completed, you can log in with your username and password previously configured.
+<img width="1530" height="1152" alt="image" src="https://github.com/user-attachments/assets/c632e7c9-a4da-4243-a3f8-9d4e58a41d14" />
+
 
