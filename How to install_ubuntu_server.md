@@ -32,4 +32,6 @@ Step 15. Enable SSH configuration
 <img width="1529" height="1144" alt="image" src="https://github.com/user-attachments/assets/e76040e4-9344-4789-ba33-a1d0c074ecdc" />
 Step 16. Keep blank for feature server snap
 <img width="1532" height="1157" alt="image" src="https://github.com/user-attachments/assets/b6c31e34-434a-4902-850f-8ba8adac6a3a" />
-Step 17. 
+Step 17. Installation system. wait until it finish process of installation.
+<img width="1522" height="1145" alt="image" src="https://github.com/user-attachments/assets/76f949d2-1884-4c70-8552-cb2475e53bc3" />
+
