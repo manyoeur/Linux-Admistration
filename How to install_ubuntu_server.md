@@ -1,6 +1,6 @@
 # How to install Ubuntu server 24.04 LTS
 ## Software requirements
-* Ubuntu Server
+* Ubuntu Server [Download](https://ubuntu.com/download/server/thank-you?version=24.04.3&architecture=amd64&lts=true)
 * Hypervisor (Microsoft Hyper-V, VMware workstation/player, Virtualbox)
 Step 1. Insert Ubuntu iso file into your hypervisor
 Step 2. Set boot option to boot from CD/DVD drive
