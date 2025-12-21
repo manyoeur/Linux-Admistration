@@ -12,6 +12,7 @@ Or
 sudo init 0
 ```
 ## 3. Schedule shutdown system
+To shut down after 10 minutes, use:
 ```
 sudo shutdown +10
 ```
