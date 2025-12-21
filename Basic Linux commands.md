@@ -24,3 +24,19 @@ To shut down at 11:30 PM (23:30), use the 24-hour format:
 ```
 sudo shutdown 23:30
 ```
+Canceling a Scheduled Shutdown
+```
+sudo shutdown -c
+```
+### Reboot system
+```
+sudo init 6
+```
+Or
+```
+sudo reboot
+```
+Or
+```
+sudo shutdown -r now
+```
