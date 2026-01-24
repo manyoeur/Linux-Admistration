@@ -40,3 +40,5 @@ Or
 ```
 sudo shutdown -r now
 ```
+### 5. File & Directory Navigation
+```pwd```	Prints the current working directory path.
