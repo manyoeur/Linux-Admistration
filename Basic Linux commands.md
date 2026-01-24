@@ -42,3 +42,10 @@ sudo shutdown -r now
 ```
 ### 5. File & Directory Navigation
 ```pwd```	Prints the current working directory path.
+<img width="802" height="137" alt="image" src="https://github.com/user-attachments/assets/4154d060-7b46-4d36-b5b4-a4f2dec25799" />
+```ls```	Lists files and directories in the current folder.
+<img width="905" height="94" alt="image" src="https://github.com/user-attachments/assets/be886710-208c-4644-b2d3-45c382aa7a92" />
+```cd```	Changes the current directory.
+<img width="840" height="59" alt="image" src="https://github.com/user-attachments/assets/dacced5e-b6da-4674-aad6-58a114944dec" />
+
+
