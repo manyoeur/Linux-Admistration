@@ -53,4 +53,13 @@ sudo shutdown -r now
 
 <img width="840" height="59" alt="image" src="https://github.com/user-attachments/assets/dacced5e-b6da-4674-aad6-58a114944dec" />
 
+```mkdir```	Creates a new directory.
+
+<img width="843" height="107" alt="image" src="https://github.com/user-attachments/assets/3b32f7f9-4cc1-47db-9da9-6138a5c2c485" />
+
+```rmdir```	Removes an empty directory.
+
+<img width="816" height="79" alt="image" src="https://github.com/user-attachments/assets/de0e6675-56a2-47e5-8edf-d4d64a4fde55" />
+
+
 
