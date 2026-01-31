@@ -2,7 +2,7 @@
 
 These commands are used for setting up and modifying network interfaces, addresses, and routing tables. 
 
-```ip```: The primary command for showing and manipulating routing, network devices, and addresses.
+*```ip```: The primary command for showing and manipulating routing, network devices, and addresses.
 
 ```ip addr show``` or ```ip a```: Displays all network interfaces and their IP addresses, netmasks, and other details.
 
