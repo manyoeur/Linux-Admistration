@@ -37,3 +37,20 @@ Open the file in a text editor:
 ```
 sudo nano /etc/netplan/01-network-manager-all.yaml
 ```
+Then add values as bellow:
+```
+
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp3s0:
+      dhcp4: false
+      addresses:
+        - 192.168.1.50/24
+      gateway4: 192.168.1.1
+      nameservers:
+        addresses:
+          - 8.8.8.8
+          - 1.1.1.1
+```
