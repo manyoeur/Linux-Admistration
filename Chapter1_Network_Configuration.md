@@ -58,3 +58,7 @@ Replace:
 
 * enp3s0 → your interface
 * IP values with your network
+Then restart Netplan by using command below:
+```
+sudo netplan apply
+```
