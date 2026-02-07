@@ -89,7 +89,6 @@ Then add values as bellow:
 
 network:
   version: 2
-  renderer: networkd
   ethernets:
     enp3s0:
       dhcp4: false
@@ -129,7 +128,6 @@ Set DHCPv4 to true
 
 network:
   version: 2
-  renderer: networkd
   ethernets:
     ens160:
       dhcp4: true
