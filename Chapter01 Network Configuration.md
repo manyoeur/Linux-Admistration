@@ -113,13 +113,17 @@ DNS1=8.8.8.8
 DNS2=1.1.1.1
 ```
 Save and restart:
+
 ``
 sudo systemctl restart network
 ```
+
 (or for newer systems)
+
 ```
 sudo systemctl restart NetworkManager
 ```
+
 ### Verify Your Static IP
 
 ```
