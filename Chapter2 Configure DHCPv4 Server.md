@@ -19,11 +19,15 @@ INTERFACESv4="eth0"
 ```
 To check your interface name:
 ## 3. Configure DHCP settings
+
 You have to backup your default configuration file
+
 ``
 sudo cp /etc/dhcp/dhcpd.conf /etc/dhcp/dhcpd.conf.back
 ``
+
 Then start to configure file below
+
 ```
 sudo nano /etc/dhcp/dhcpd.conf
 ```
