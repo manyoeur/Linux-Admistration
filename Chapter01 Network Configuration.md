@@ -75,12 +75,17 @@ sudo nmtui
 Then:
 
 1.Select Edit a connection
+
 2.Choose your interface (e.g., eth0 or ens33)
+
 3.Set IPv4 CONFIGURATION to Manual
+
 4.Enter:
+
 * Address: 192.168.1.100
 * Netmask: 255.255.255.0
 * Gateway: 192.168.1.1
+
 5.Add DNS server(s): 8.8.8.8, 1.1.1.1
 6.Save and quit
 7.Restart network:
