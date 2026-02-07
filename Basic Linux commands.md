@@ -11,6 +11,77 @@ Or
 ```
 sudo init 0
 ```
+These commands are used for setting up and modifying network interfaces, addresses, and routing tables. 
+## How to check IP address in Ubuntu
+* ```ip```: The primary command for showing and manipulating routing, network devices, and addresses.
+
+* ```ip addr show``` or ```ip a```: Displays all network interfaces and their IP addresses, netmasks, and other details.
+
+* ```ip addr add [ip_address/mask] dev [interface]```: Assigns an IP address to a specific interface.
+
+* ```ip link set [interface] up or down```: Enables or disables a network interface.
+
+* ```ifconfig```: An older command (Interface Configuration) still found on some systems for displaying and configuring network interfaces. It can set IP addresses, netmasks, and enable/disable interfaces.
+## Display routing table
+* ```ip route show```: Displays the kernel's IP routing table.
+* ```route```: An older command used to display or modify the IP routing table.
+* ```iwconfig```: Specific to wireless network interfaces, used to view or set parameters like SSID and signal strength.
+## To display hostname of the system
+* ```hostname```: Displays or sets the system's hostname.
+
+* ```hostnamectl set-hostname [new_hostname]```: A modern command to control the system hostname with systemd.
+
+* ```nmcli```: A command-line client for NetworkManager, a dynamic network management daemon, often used on desktop and server systems to manage connections interactively. 
+# Shutdown Linux command line
+Shutdown Linux from the Command Line
+```
+sudo shutdown now
+```
+Shutdown at a specific time (e.g., 1 minute from now)
+```
+sudo shutdown +1
+```
+Shutdown at a specific clock time (shutdown at 10:30 PM)
+```
+sudo shutdown 22:30
+```
+Power off the system immediately
+```
+sudo poweroff
+```
+ Use systemctl (modern method)
+ ```
+sudo systemctl poweroff
+```
+Halt the system (stop CPU, no power off)
+```
+sudo halt
+```
+Shutdown in old system
+```
+sudo init 0
+```
+# How to reboot Linux system
+```
+sudo reboot
+```
+Using the systemd method
+```
+sudo systemctl reboot
+```
+Reboot now using shutdown command
+```
+sudo shutdown -r now
+```
+Schedule a reboot (example: reboot in 5 minutes)
+```
+sudo shutdown -r +5
+```
+ Cancel a scheduled reboot
+ ```
+sudo shutdown -c
+```
+
 ## 3. Schedule shutdown system
 To shut down after 10 minutes, use:
 ```
