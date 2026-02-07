@@ -1,4 +1,4 @@
-# How to configure DHCPv4 on Ubuntu Server
+# How to configure DHCPv4 on Ubuntu/Debian Server
 ## 1. Install the ISC DHCP Server package
 ```
 sudo apt update
@@ -85,7 +85,7 @@ sudo dhcpd -t -4 -cf /etc/dhcp/dhcpd.conf
 * No output means syntax is OK.
 * If there’s an error, fix the reported line in /etc/dhcp/dhcpd.conf and retest.
 
-# How to Configure DHCPv4 on CentOS
+# How to Configure DHCPv4 on Redhat/CentOS
 ## 1. Install the DHCP Server package
 ```
 sudo yum install -y dhcp
