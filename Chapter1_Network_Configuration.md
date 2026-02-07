@@ -82,7 +82,7 @@ ls /etc/netplan
 ```
 Open the file in a text editor:
 ```
-sudo nano /etc/netplan/01-network-manager-all.yaml
+sudo nano /etc/netplan/50-cloud-init.yaml.yaml
 ```
 Then add values as bellow:
 ```
