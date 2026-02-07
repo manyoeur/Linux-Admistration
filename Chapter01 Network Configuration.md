@@ -126,4 +126,55 @@ sudo systemctl restart NetworkManager
 ip a
 nmcli dev show
 ```
+# How to set DHCP client in CentOS/Redhat
+## Method 1: Enable DHCP using NetworkManager (CentOS 7/8/Stream)
+Option A — Using nmcli
+Replace ens33 with your interface name:
+```
 
+sudo nmcli con mod ens33 ipv4.method auto
+sudo nmcli con up ens33
+```
+This tells NetworkManager to automatically request an IP via DHCP.
+Option B — Using nmtui (Text UI)
+```
+sudo nmtui
+```
+1.Select Edit a connection
+
+2.Pick your interface (ex: ens33)
+
+3.Change IPv4 CONFIGURATION to Automatic (DHCP)
+
+4.Save and quit
+
+5.Restart networking:
+```
+sudo systemctl restart NetworkManager
+```
+## Method 2: Enable DHCP by editing the config file
+Find your interface config file:
+```
+/etc/sysconfig/network-scripts/ifcfg-ens33
+```
+Edit it:
+```
+sudo nano /etc/sysconfig/network-scripts/ifcfg-ens33
+```
+Set these values:
+```
+
+BOOTPROTO=dhcp
+ONBOOT=yes
+```
+Remove static IP lines:
+```
+IPADDR=
+NETMASK=
+GATEWAY=
+DNS1=
+```
+Save, then restart:
+```
+sudo systemctl restart NetworkManager
+```
