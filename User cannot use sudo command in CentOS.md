@@ -1,7 +1,7 @@
 To grant sudo access to a user in CentOS, the recommended method is to add the user to the wheel group using the usermod command. 
-# If you can login as user root, then login to user root
+## 1.Log in as the root user
 <img width="1505" height="1144" alt="image" src="https://github.com/user-attachments/assets/d62112f4-f9eb-4edb-9781-8b359977caa8" />
-# Add the user to the wheel group:
+## 2.Add the user to the wheel group:
 se the usermod command with the -aG options to append the user to the supplementary wheel group. Replace <username> with the actual username:
 ```
 usermod -aG wheel <username>
